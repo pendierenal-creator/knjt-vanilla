@@ -1,0 +1,15 @@
+name: HorseVanilla
+main: HorseVanilla\Main
+version: 1.0.0
+api: [5.0.0]
+php: ">=8.0"
+author: knjt
+permissions:
+  horsevanilla.command.spawn:
+    default: true
+    description: Allows players to spawn a vanilla horse using /horse.
+commands:
+  horse:
+    description: Spawn a tame vanilla-style horse.
+    usage: "/horse [name]"
+    permission: horsevanilla.command.spawn
